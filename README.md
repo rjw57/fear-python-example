@@ -11,8 +11,12 @@ There's no installation *per se*. Simply clone:
 ```console
 user@machine$ ssh fear
 user@fear$ cd # make sure we're in the home directory
-user@fear$ git clone https://github.com/rjw57/fear-python-example
+user@fear$ git -c http.sslVerify=false clone https://github.com/rjw57/fear-python-example
 ```
+
+> NOTE: fear seems to have no CA certificates installed so one needs the
+> horribly insecure ``http.sslVerify=false`` option. This is probably something
+> which needs reporting.
 
 ## Running
 
