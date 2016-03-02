@@ -2,7 +2,7 @@
 #$ -S /bin/bash
 
 # Where is this script?
-DIR="${HOME}/python-example"
+DIR="${HOME}/fear-python-example"
 
 # Change to that directory
 cd "${DIR}"
