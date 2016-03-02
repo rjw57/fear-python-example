@@ -4,6 +4,8 @@ This directory holds a simple numpy Python program and associated job script
 demonstrating the use of Python on the fear cluster. The job simply calculates
 the mean of 100 normally distributed samples.
 
+> **IMPORTANT**: Read the documentation on the [CUED wiki](http://divf.eng.cam.ac.uk/w/Main/GridEngineDocs) first.
+
 ## "Installing"
 
 There's no installation *per se*. Simply clone:
