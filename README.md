@@ -17,8 +17,7 @@ user@fear$ git -c http.sslVerify=false clone https://github.com/rjw57/fear-pytho
 ```
 
 > NOTE: fear seems to have no CA certificates installed so one needs the
-> horribly insecure ``http.sslVerify=false`` option. This is probably something
-> which needs reporting.
+> insecure ``http.sslVerify=false`` option.
 
 ## Running
 
